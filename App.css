@@ -1,0 +1,52 @@
+.App {
+display: flex;
+  justify-content: center;
+  justify-items: center;
+  background-color: #282c34;
+ min-height: 100vh;
+
+}
+.container{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding: 20px;
+ min-height: 50v;
+ border: 1px solid grey;
+ font-size: 20px;
+}
+.todoform{
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+}
+input{
+  width: 80%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+}
+button{
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  margin: 0 2px ;
+}
+.utodo{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.single{
+  border-radius: 50px;
+  margin: 10px 0;
+  background-color:#5dadf8 ;
+  padding: 5px 8px;
+  display: flex;
+  width: 450px;
+  align-items: center;
+}
+.singletxt{
+  flex:1;
+}
